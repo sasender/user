@@ -1,9 +1,9 @@
 @Library('roboshop') _
 
-roboshop(
+roboshop (
        COMPONENT          : 'user',
        PROJECT_NAME       : "RoboShop",
-       MASTER_LABEL       : "MASTER",
-       SKIP_NEXUS_UPLOAD  : false
-       APP_TYPE           : "NODE.JS",
+       MASTER_LABEL       : "NODE.JS",
+       SKIP_NEXUS_UPLOAD  : false,
+       APP_TYPE           : "NODEJS",
 ) 
